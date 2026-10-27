@@ -347,6 +347,16 @@ section{
 }
 [data-density="compact"] .pub{padding:1rem 0}
 .pub:last-child{border-bottom:none}
+.pub-group{
+  font-family:var(--mono);
+  font-size:0.7rem;
+  color:var(--fg-mute);
+  text-transform:uppercase;
+  letter-spacing:0.12em;
+  padding-bottom:0.5rem;
+  border-bottom:1px solid var(--border);
+}
+.pubs + .pub-group{margin-top:2.5rem}
 .pub:hover{background:rgba(0,0,0,0.015)}
 .pub-num{
   font-family:var(--mono);
@@ -609,7 +619,7 @@ footer{
       <aside class="hero-card">
         <div class="portrait"><img src="photo.png" alt="Pierrick Bougault"></div>
         <div class="card-stats">
-          <div class="stat"><div class="stat-n">03</div><div class="stat-l">Publications</div></div>
+          <div class="stat"><div class="stat-n">04</div><div class="stat-l">Publications</div></div>
           <div class="stat"><div class="stat-n">03</div><div class="stat-l">Industry roles</div></div>
           <div class="stat"><div class="stat-n">04</div><div class="stat-l">Languages</div></div>
         </div>
@@ -705,6 +715,7 @@ footer{
     </div>
     <div class="sec-body">
       <div class="sec-body-content">
+        <div class="pub-group">First author</div>
         <div class="pubs">
 
           <div class="pub">
@@ -738,6 +749,35 @@ footer{
           <div class="pub">
             <div class="pub-num">[03]</div>
             <div>
+              <div class="pub-title">Don't Lose the Human Touch: A Human-Centric Tool for Knowledge-Retaining Fault Diagnosis in Lean Aircraft Manufacturing Meetings</div>
+              <div class="pub-authors"><strong>Pierrick Bougault</strong>, Liang Ma</div>
+              <div class="pub-venue">In preparation</div>
+            </div>
+            <span class="pub-status s-ongoing">Ongoing</span>
+          </div>
+
+        </div>
+
+        <div class="pub-group">Co-author</div>
+        <div class="pubs">
+
+          <div class="pub">
+            <div class="pub-num">[04]</div>
+            <div>
+              <div class="pub-title">How AI Assistants Respond to Repeated Abuse</div>
+              <div class="pub-authors">William Guey, Wei Zhang, <strong>Pierrick Bougault</strong>, Yi Wang, Agoston Bodo, Vitor D. de Moura, José O. Gomes</div>
+              <div class="pub-venue">Proceedings of the 3rd Workshop on Language Understanding in the Human-Machine Era (LUHME 2026), pp. 134–143, Budapest, Hungary. Association for Computational Linguistics · 2026</div>
+              <a class="pub-link" href="https://aclanthology.org/2026.luhme-1.12/" target="_blank">
+                aclanthology.org/2026.luhme-1.12
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M9 7h8v8"/></svg>
+              </a>
+            </div>
+            <span class="pub-status s-published">Published</span>
+          </div>
+
+          <div class="pub">
+            <div class="pub-num">[05]</div>
+            <div>
               <div class="pub-title">BiasLab: A Multilingual Dual-Framing Framework for LLM Bias Measurement, Applied to Workplace and HR Contexts</div>
               <div class="pub-authors">William Guey, Wei Zhang, Pei-Luen Patrick Rau, <strong>Pierrick Bougault</strong>, Vitor D. de Moura, Bertan Ucar, Jose O. Gomes</div>
               <div class="pub-venue">WORK: A Journal of Prevention, Assessment &amp; Rehabilitation · OnlineFirst · 2026</div>
@@ -747,16 +787,6 @@ footer{
               </a>
             </div>
             <span class="pub-status s-published">Published</span>
-          </div>
-
-          <div class="pub">
-            <div class="pub-num">[04]</div>
-            <div>
-              <div class="pub-title">Don't Lose the Human Touch: A Human-Centric Tool for Knowledge-Retaining Fault Diagnosis in Lean Aircraft Manufacturing Meetings</div>
-              <div class="pub-authors"><strong>Pierrick Bougault</strong>, Liang Ma</div>
-              <div class="pub-venue">In preparation</div>
-            </div>
-            <span class="pub-status s-ongoing">Ongoing</span>
           </div>
 
         </div>
